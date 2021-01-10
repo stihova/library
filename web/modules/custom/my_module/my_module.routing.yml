@@ -1,12 +1,3 @@
-my_module.show_text:
-  path: '/hello'
-  defaults:
-    _controller: '\Drupal\my_module\Controller\HelloController::showContent'
-    _title: 'Returning Text'
-  requirements:
-    _permission: 'access content'
-
-
 my_module.config_form:
   path: '/my_module/config'
   defaults:
